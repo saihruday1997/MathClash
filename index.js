@@ -138,7 +138,7 @@ const startTimer = () => {
     setTimeout(() => {
       if (gameOver()) {
         document.getElementById("score").innerHTML =
-          "Game is over. Your score is :" + score;
+          "Game is over. Your score is : " + score;
         clearInterval(id);
         return;
       }
